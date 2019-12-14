@@ -1,0 +1,40 @@
+npm init
+npm install --save-dev node-sass
+ node-sass -w scss/ -o dist/css/ --recursive us this in package.json
+npm run sass
+
+git by traversy media: Basic Command
+git init: //Initialize Local Git Repositiory(hiden)
+
+git add <file>: //Add File(s) to Index
+
+git status: //Check status of working tree
+
+git commit: //Commit changes in Index
+
+git Push: //Push to Remote Repository
+
+git Pull: //Pull latest from Remote Repository
+
+git clone: //Clone Repository into a new Directory
+
+For projects:
+git init
+git config --global user.name 'Amit Pawar'
+git config --global user.email 'any email'
+
+To add files
+git add file
+git status to check
+git add .
+
+To commit:
+git commit then click i to go to insert mode
+to get out of this press esc and then press :wq
+git status
+
+gitignore:
+touch .gitignore
+inside gitignore file you can write which you do not want to show
+ex:/dir2
+ 
