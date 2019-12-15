@@ -24,7 +24,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.9;
+  opacity: 1;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -54,9 +54,10 @@
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
       width: 250px;
-      height: 250px;
+      height: 280px;
       background: url(../images/photo.jpg);
       border-radius: 50%;
+      opacity: 1;
       border: solid 3px #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -114,12 +115,18 @@ body {
       z-index: -1;
       background: rgba(68, 68, 68, 0.9); }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0;
   font-weight: 400; }
-  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  h1.lg-heading,
+  h2.lg-heading,
+  h3.lg-heading {
     font-size: 6rem; }
-  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  h1.sm-heading,
+  h2.sm-heading,
+  h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
@@ -159,6 +166,8 @@ main {
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
+    width: 250px;
+    height: 280px;
     border-radius: 50%;
     border: #eece1a 3px solid; }
   .about-info .bio {
