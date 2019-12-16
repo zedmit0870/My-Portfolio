@@ -38,5 +38,11 @@ touch .gitignore
 inside gitignore file you can write which you do not want to show
 ex:/dir2
 
+To create a branch:
+git branch mybranch
+git checkout mybranch to go to mybranch
+
 To deploy project on github follow all steps from Traversy Media
+git remote add origin git@github.com:zedmit0870/
+git push -u origin master
  
