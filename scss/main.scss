@@ -148,6 +148,7 @@ main {
 
   img {
     width: 100%;
+    overflow: hidden;
     border: 3px #fff solid;
 
     &:hover {

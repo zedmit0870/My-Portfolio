@@ -212,6 +212,7 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
+    overflow: hidden;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
