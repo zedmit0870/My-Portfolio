@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Responsive portfolio",
   "main": "index.js",
+  "homepage": "https://zedmit0870.github.io/My-Portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Amit Pawar",
   "license": "MIT",
