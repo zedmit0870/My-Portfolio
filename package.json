@@ -11,7 +11,7 @@
   "author": "Amit Pawar",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "node-sass": "^7.0.0"
   },
   "dependencies": {
     "gh-pages": "^2.1.1"
